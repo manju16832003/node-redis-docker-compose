@@ -12,6 +12,10 @@ OR
 
 `docker rm $(docker ps -a -q)` -> to remove all the containers.
 
+## Docker compose up with remove orphan images
+
+`docker-compose up --build --remove-orphans`
+
 ## How To Remove Docker Images, Containers, and Volumes
 
 `docker system prune` -> Purging All Unused or Dangling Images, Containers, Volumes, and Networks
