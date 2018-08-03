@@ -9,3 +9,5 @@ OR
 `sudo docker-compose up`
 
 `docker-compose rm` -> to remote the containers created from `docker-compose.yml`
+
+`docker rm $(docker ps -a -q)` -> to remove all the containers.
